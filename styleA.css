@@ -1,0 +1,340 @@
+body{
+    background: #202124;
+    
+}
+.fa-brands.fa-behance.fa-1x{
+    margin-right: 40px;
+}
+.fa-brands.fa-instagram.fa-1x{
+    margin-left: 40px;
+}
+.services_text{
+    text-align: center;
+    font-family: 'poppins' ;
+    font-weight: 600;
+    font-size: 35px;
+    color:  #FFA588;
+    position: relative;
+    letter-spacing: 1.5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.item{
+    border: 2px solid #FFA588;
+    height: 310px;
+    width:300px;
+    color: #FFA588;
+    font-family: 'poppins';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    border-radius:10px;
+    transition: 1s;
+}
+.item:hover{
+    transform: scale(1.2);
+}
+.brush{
+    margin-top: 50px;
+}
+.text1{
+    font-size: 15px ;
+    font-weight: 400;
+    font-family: 'poppins';
+    color:    #FFFFFF;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.consists{
+  
+    display:flex;
+    justify-content: space-evenly;
+    height: auto;
+    width:auto
+}
+.it2{
+    
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 600px;
+    width: 700px;
+    margin-right: 100px;
+}
+.it1{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.about1{
+    font-family: 'poppins' ;
+    font-weight: 600;
+    font-size: 35px;
+    color:  #FFA588;
+    letter-spacing: 1.5px;
+
+}
+.write{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.dabba{
+    display:flex;
+    justify-content: space-evenly;
+}
+.hello{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size:25px ;
+    color: #FFFFFF;
+}
+.person{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #FFA588;
+
+}
+.welcome{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size:20px ;
+    color: #FFFFFF;
+
+}
+.thing1{
+    margin-top: 100px;
+    margin-left:200px;
+}
+.thing2{
+    margin-right: 100px;
+}
+.navbar{
+    width: 85%;
+    padding: 35px -800px;
+    margin-right: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:15px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#FFFFFF;
+    
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #FFA588;
+    position: absolute;
+    left: 0%;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.logo{
+    margin-left: 200px;
+}
+.button{
+    position: absolute;
+
+    margin-top: 20px;
+ }
+ 
+ .button .button1{
+     border: 2px solid #FFA588;
+     border-radius: 5px;
+     padding: 10px 40px;
+     background: transparent;
+     font-family: 'poppins';
+     font-size: 20px;
+     font-weight: 600;
+     color: #FFA588;
+ }
+ 
+ .button .button1:hover{
+     background-color: #FFA588;
+     color: #202124;
+ } 
+
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 100px;  
+}
+.myclients{
+    text-align: center;
+    font-family: 'poppins' ;
+    font-weight: 600;
+    font-size: 35px;
+    color:  #FFA588;
+    position: relative;
+    letter-spacing: 1.5px;
+    margin-top: 100px;
+
+}
+.c1{
+    margin-top: 100px;
+    margin-right:50px;
+    transition: 1s;
+}
+.c4{
+    margin-top: 100px;
+    transition: 1s;
+    
+}
+.c3{
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+.clientname{
+    font-weight: 600;
+    color: #FFA588;
+    font-size: 20px;
+    font-family: 'poppins';
+    margin-left: 20px;
+}
+.ending{
+    display: flex;
+    
+}
+.c1:hover{
+    transform: scale(1.2);
+
+}
+.c4:hover{
+    transform: scale(1.2);
+}
+.pocket{
+    display: flex;
+    justify-content: space-evenly;
+}
+.a1{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.s1{
+    font-size: 30px;
+    background-color: black;
+    width: 429px;
+    height:329px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(Mask\ Group\ \(2\).png);
+    
+
+   
+
+}
+.a2{
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'poppins';
+
+}
+.s2{
+    margin-top:120px;
+    transition: 1s;
+}
+.s2:hover{
+    transform: scale(1.4);
+}
+.peru{
+    
+    color: #FFA588;
+}
+::placeholder{
+    color: #FFA588;
+    font-family: 'poppins';
+    font-size: 20px ;
+    text-align: left;
+}
+input[type=text]{
+    padding: 30px 100px;
+    border: 1px solid #FFA588;
+    border-radius: 3px;
+    background-color: #202124;
+    
+}
+#msg{
+    padding:50px 100px;
+
+}
+.button .button2{
+    color:#202124;
+    background-color: #FFA588;
+    font-size:20px;
+    font-family: 'poppins';
+    border-radius: 5px;
+    border: 2px solid #202124;
+    padding: 30px 150px;
+    font-weight: 800;
+
+}
+.last{
+    margin-left: 400px;
+    height: 100vh;
+    display: flex;
+}
+.phone{
+    color: #FFA588;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.number{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 600;
+
+}
+.part2{
+    border-left: 2px solid #FFA588;
+    margin-left: 50px;
+    padding-left: 30px;
+    height:400px;
+    margin-top: 20px;
+}
+.fa-brands.fa-behance.fa-1.5x{
+    margin-right: 70px;
+}
+.fa-brands.fa-instagram.fa-1.5x{
+    margin-left: 70px;
+}
+
+
+
+
